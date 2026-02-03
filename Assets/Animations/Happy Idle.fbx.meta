@@ -22,7 +22,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -109,7 +109,182 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Happy Idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:Mesh
+      parentName: Happy Idle(Clone)
+      position: {x: -0.02884283, y: -1.792847, z: -2.0180402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:Hips
+      parentName: Happy Idle(Clone)
+      position: {x: 0.0008991256, y: 0.61199456, z: -0.0071292887}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:RightUpLeg
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:Hips
+      position: {x: 0.08507722, y: -0.034179807, z: 0.0032374728}
+      rotation: {x: 0.0009549459, y: 0.009730026, z: 0.99517083, w: -0.09767028}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:RightLeg
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:RightUpLeg
+      position: {x: 0.0000000021208924, y: 0.25842816, z: 7.27137e-11}
+      rotation: {x: -0.029534059, y: 0.0049571753, z: -0.16545632, w: 0.98576236}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:RightFoot
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:RightLeg
+      position: {x: 0.000000002506392, y: 0.23816153, z: -5.8606264e-10}
+      rotation: {x: 0.4990647, y: 0.049073905, z: -0.028322872, w: 0.8647104}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:RightToeBase
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:RightFoot
+      position: {x: 3.0057068e-10, y: 0.13905048, z: -4.4678275e-11}
+      rotation: {x: 0.2703037, y: 0.31746402, z: -0.09492874, w: 0.90395856}
+      scale: {x: 1, y: 1.0000002, z: 0.9999998}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:RightToe_End
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:RightToeBase
+      position: {x: 0.0000000016764765, y: 0.070314616, z: 8.034829e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:Spine
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:Hips
+      position: {x: -0, y: 0.061499476, z: 0.0004999582}
+      rotation: {x: 0.00406463, y: -0, z: -0, w: 0.9999918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:Spine1
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:Spine
+      position: {x: -0, y: 0.07175176, z: 1.23902e-11}
+      rotation: {x: 0.000000006053596, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:Spine2
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:Spine1
+      position: {x: -0, y: 0.08200201, z: 4.9077624e-11}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:RightShoulder
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:Spine2
+      position: {x: 0.064792916, y: 0.0806475, z: 0.00018219983}
+      rotation: {x: 0.54978585, y: 0.4448904, z: -0.5481783, w: 0.44643992}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:RightArm
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:RightShoulder
+      position: {x: 2.1159671e-12, y: 0.12007573, z: -4.9082216e-10}
+      rotation: {x: -0.06946488, y: -0.00024804473, z: 0.0035615563, w: 0.997578}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000004}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:RightForeArm
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:RightArm
+      position: {x: -2.5362698e-12, y: 0.2229309, z: -1.6652235e-12}
+      rotation: {x: -0.022504508, y: 0.00008890033, z: -0.0039455593, w: 0.999739}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.99999994}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:RightHand
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:RightForeArm
+      position: {x: -1.33267355e-11, y: 0.19356917, z: -3.6434744e-11}
+      rotation: {x: -0.081696525, y: -0.0019861427, z: 0.014123232, w: 0.99655527}
+      scale: {x: 0.99999976, y: 0.9999994, z: 0.9999996}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:RightHandIndex1
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:RightHand
+      position: {x: -2.5984465e-11, y: 0.02840307, z: -1.3648949e-10}
+      rotation: {x: 0.08051172, y: -0.0010962051, z: -0.00517159, w: 0.9967397}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000004}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:RightHandIndex2
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:RightHandIndex1
+      position: {x: -2.4860586e-11, y: 0.043459583, z: -2.2551228e-10}
+      rotation: {x: 0.01153494, y: -0.000000086729386, z: 0.009873937, w: 0.9998847}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000002}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:RightHandIndex3
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:RightHandIndex2
+      position: {x: 0.0035495728, y: 0.04851481, z: -0.004146398}
+      rotation: {x: -0.1954302, y: 0.060704824, z: 0.54296136, w: 0.81444156}
+      scale: {x: 1.0000006, y: 0.99999994, z: 1.0000002}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:RightHandIndex4
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:RightHandIndex3
+      position: {x: 0.0059996024, y: 0.0017297558, z: 0.0019661176}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:Neck
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:Spine2
+      position: {x: -0, y: 0.0922522, z: 0.0000000014710423}
+      rotation: {x: -0.004064636, y: -0, z: -0, w: 0.9999918}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:Head
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:Neck
+      position: {x: -0, y: 0.032932222, z: -0.0017281361}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:HeadTop_End
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:Head
+      position: {x: -0, y: 0.2908823, z: -0.015264191}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftShoulder
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:Spine2
+      position: {x: -0.064792916, y: 0.080646075, z: 0.0000064948667}
+      rotation: {x: 0.5490249, y: -0.44559416, z: 0.54895157, w: 0.44572377}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftArm
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftShoulder
+      position: {x: 1.10449844e-13, y: 0.12007572, z: 8.2102536e-10}
+      rotation: {x: -0.06950149, y: 0.00070394576, z: -0.010103673, w: 0.99753046}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftForeArm
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftArm
+      position: {x: 7.116127e-11, y: 0.22296378, z: 7.488583e-10}
+      rotation: {x: -0.02249848, y: -0.00014187871, z: 0.0063050273, w: 0.999727}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftHand
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftForeArm
+      position: {x: -3.230265e-11, y: 0.19357395, z: -6.824796e-11}
+      rotation: {x: -0.030533433, y: 0.000030398369, z: -0.0009964705, w: 0.9995333}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftHandIndex1
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftHand
+      position: {x: 2.7723102e-12, y: 0.061428867, z: -8.534229e-11}
+      rotation: {x: -0.041313726, y: 0.71104366, z: -0.041924387, w: -0.70067996}
+      scale: {x: 0.9999996, y: 0.9999997, z: 0.9999991}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftHandIndex2
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftHandIndex1
+      position: {x: -4.080547e-11, y: 0.025073849, z: 1.2827073e-10}
+      rotation: {x: 0.58274037, y: 0.0000006854532, z: 0.19893453, w: 0.7879332}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftHandIndex3
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftHandIndex2
+      position: {x: 0.004979669, y: 0.003514145, z: -0.014587095}
+      rotation: {x: -0.28882018, y: 0.51471925, z: 0.025403678, w: 0.8068467}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999996}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftHandIndex4
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftHandIndex3
+      position: {x: 0.00015098802, y: 0.00008381068, z: 0.000019127101}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftUpLeg
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:Hips
+      position: {x: -0.08507722, y: -0.034179807, z: 0.00095264055}
+      rotation: {x: -0.002127151, y: 0.021689877, z: 0.9949891, w: 0.09757972}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftLeg
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftUpLeg
+      position: {x: 0.0000000014872622, y: 0.258617, z: 6.5646477e-10}
+      rotation: {x: -0.053715073, y: -0.00902295, z: 0.1654112, w: 0.9847195}
+      scale: {x: 1, y: 0.99999994, z: 1.0000002}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftFoot
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftLeg
+      position: {x: 5.195551e-11, y: 0.23846439, z: 1.9937044e-10}
+      rotation: {x: 0.51360005, y: -0.045477554, z: 0.027274141, w: 0.8563895}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftToeBase
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftFoot
+      position: {x: 7.2901524e-10, y: 0.14110808, z: -2.4976377e-10}
+      rotation: {x: 0.26648265, y: -0.32149133, z: 0.09480295, w: 0.9036828}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftToe_End
+      parentName: HughMorris_VoxelCharacter_EmilyMarsh2026:LeftToeBase
+      position: {x: -2.4251134e-10, y: 0.070921876, z: 1.4248895e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -120,13 +295,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
